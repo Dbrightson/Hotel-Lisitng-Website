@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
-import hotelsData from '../data/hotels.json';
-import CityTabs from '../components/CityTabs';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import RoomIcon from '@mui/icons-material/Room';
+import RoomIcon from '@mui/icons-material/Room'; // Import RoomIcon
+import MeetingRoomIcon from '@mui/icons-material/MeetingRoom';
 import KingBedIcon from '@mui/icons-material/KingBed';
 import BathtubIcon from '@mui/icons-material/Bathtub';
 import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
-import MeetingRoomIcon from '@mui/icons-material/MeetingRoom';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import Button from '@mui/material/Button';
 
 const HotelCard = ({ hotel }) => {
   const {
+    id,
     name,
     address,
     rooms,
@@ -23,6 +23,7 @@ const HotelCard = ({ hotel }) => {
     sqft,
     imageUrl,
     price,
+    Popular, // Add the "Popular" property from the JSON
   } = hotel;
 
   const [isFavorite, setIsFavorite] = useState(false);
@@ -34,21 +35,34 @@ const HotelCard = ({ hotel }) => {
   const cardStyle = {
     backgroundColor: '#FFFFFF',
     borderRadius: '15px',
-    margin: '5px', // Reduce margin to 5px
+    margin: '10px',
     color: 'white',
     position: 'relative',
     width: '350px',
-  };  
+  };
 
   const imageContainerStyle = {
     position: 'relative',
     overflow: 'hidden',
     borderRadius: '15px 15px 0 0', // Rounded top corners
+    height: '200px', // Set a fixed height
   };
 
   const imageStyle = {
     width: '100%',
-    height: 'auto',
+    height: '100%',
+  };
+
+  const ribbonStyle = {
+    position: 'absolute',
+    top: '3px',
+    left: '3px',
+    backgroundColor: 'blue',
+    color: 'white',
+    padding: '4px 8px',
+    fontSize: '12px',
+    fontFamily: 'Poppins',
+    fontWeight: 'bold',
   };
 
   const favoriteButtonStyle = {
@@ -63,23 +77,10 @@ const HotelCard = ({ hotel }) => {
     borderRadius: '50%',
     color: isFavorite ? 'white' : '#0026FF', // Change the icon color
     border: `1px solid ${isFavorite ? 'transparent' : '#0026FF'}`,
-  };  
-
-  const rentNowContainerStyle = {
-    position: 'absolute',
-    top: '15px',
-    left: '15px',
-    backgroundColor: 'white',
-    color: 'blue',
-    padding: '5px 10px',
-    borderRadius: '15px',
-    fontFamily: 'Oswald',
-    fontSize:'15px',
-    border: '1px solid blue',
   };
 
   const contentStyle = {
-    padding: '16px', // Adjust padding to your preference
+    padding: '16px',
   };
 
   const dataContainerStyle = {
@@ -119,17 +120,20 @@ const HotelCard = ({ hotel }) => {
     fontSize: '12px',
   };
 
-  // Define the style for data values (change color to black)
   const dataValueStyle = {
-    color: 'black', // Change color to black
+    color: 'black',
   };
 
   return (
     <Grid item xs={12} sm={6} md={4}>
       <Card style={cardStyle}>
         <div style={imageContainerStyle}>
-          <img src={imageUrl} alt={name} style={imageStyle} />
-          <div style={rentNowContainerStyle}>For Rent</div>
+          <Link to={`/property/${id}`} className="property-link">
+            <img src={imageUrl} alt={name} style={imageStyle} />
+          </Link>
+          {Popular === 'Yes' && (
+            <div style={ribbonStyle}>Popular</div>
+          )}
           <FavoriteIcon
             fontSize="small"
             className="btn"
@@ -142,7 +146,7 @@ const HotelCard = ({ hotel }) => {
             {name}
           </Typography>
           <div style={dataRowStyle}>
-            <RoomIcon style={iconStyle} />
+            <RoomIcon style={{ ...iconStyle, color: 'blue' }} /> {/* Add RoomIcon with blue color */}
             <Typography variant="body2" style={dataValueStyle}>
               {address}
             </Typography>
@@ -151,25 +155,25 @@ const HotelCard = ({ hotel }) => {
             <div style={dataRowStyle}>
               <MeetingRoomIcon style={iconStyle} />
               <Typography variant="body2" style={dataValueStyle}>
-                {rooms}
+                {rooms} 
               </Typography>
             </div>
             <div style={dataRowStyle}>
               <KingBedIcon style={iconStyle} />
               <Typography variant="body2" style={dataValueStyle}>
-                {beds}
+                {beds} 
               </Typography>
             </div>
             <div style={dataRowStyle}>
               <BathtubIcon style={iconStyle} />
               <Typography variant="body2" style={dataValueStyle}>
-                {bathrooms}
+                {bathrooms} 
               </Typography>
             </div>
             <div style={dataRowStyle}>
               <CompareArrowsIcon style={iconStyle} />
               <Typography variant="body2" style={dataValueStyle}>
-                {sqft} sqft
+                {sqft} 
               </Typography>
             </div>
           </div>
@@ -184,7 +188,7 @@ const HotelCard = ({ hotel }) => {
                 </Typography>
               </div>
             </div>
-            <Button variant="outlined" style={readMoreButtonStyle}>
+            <Button variant="outlined" color="primary" style={readMoreButtonStyle}>
               Read More
             </Button>
           </div>
