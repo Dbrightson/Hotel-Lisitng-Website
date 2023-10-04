@@ -1,0 +1,69 @@
+{
+  "cities": [
+    {
+      "name": "New York",
+      "properties": [
+        {
+          "id": 1,
+          "name": "Luxury Hotel 2",
+          "address": "123 Main St, New York, NY",
+          "rooms": 11,
+          "bathrooms": 10,
+          "beds": 20,
+          "sqft": 5000,
+          "price": 9900,
+          "imageUrl": "https://www.bing.com/th?id=OADD2.8108955399575_1DTKGNLK40MSXQB9FE&pid=21.2&c=16&roil=0.1489&roit=0.2005&roir=1&roib=1&w=472&h=247&rs=2"
+        },
+        {
+          "id": 2,
+          "name": "Luxury Hotel 3",
+          "address": "123 Main St, New York, NY",
+          "rooms": 10,
+          "bathrooms": 10,
+          "beds": 20,
+          "sqft": 5000,
+          "price": 1000,
+          "imageUrl": "https://www.bing.com/th?id=OADD2.8108955399575_1DTKGNLK40MSXQB9FE&pid=21.2&c=16&roil=0.1489&roit=0.2005&roir=1&roib=1&w=472&h=247&rs=2"
+        },
+        {
+          "id": 3,
+          "name": "Cozy Inn",
+          "address": "456 Elm St, New York, NY",
+          "rooms": 5,
+          "bathrooms": 5,
+          "beds": 10,
+          "sqft": 2500,
+          "price": 1000,
+          "imageUrl": "https://media.radissonhotels.net/image/radisson-blu-hotel-dubai-waterfront/guestroom/16256-116474-f63809820_3xl.jpg?impolicy=Card"
+        }
+      ]
+    },
+    {
+      "name": "Los Angeles",
+      "properties": [
+        {
+          "id": 4,
+          "name": "Beachside Resort",
+          "address": "789 Ocean Blvd, Los Angeles, CA",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "sqft": 7500,
+          "price": 1000,
+          "imageUrl": "https://example.com/hotel3.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Downtown Loft",
+          "address": "101 Pine St, Los Angeles, CA",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://example.com/hotel4.jpg"
+        }
+      ]
+    }
+  ]
+}
