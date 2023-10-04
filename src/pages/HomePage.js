@@ -13,12 +13,16 @@ function HomePage() {
   };
 
   const pageStyle = {
-    backgroundColor: '#DAECFD', // Background color
-    minHeight: '100vh', // Minimum viewport height
+    backgroundColor: '#F4F4FD',
+    minHeight: '100vh',
     display: 'flex',
     flexDirection: 'column',
-    alignItems: 'center', // Center align content horizontally
-    justifyContent: 'center', // Center align content vertically
+    alignItems: 'center',
+    justifyContent: 'center',
+  };
+
+  const h1Style = {
+    fontFamily: 'Oswald, sans-serif', // Apply Oswald font
   };
 
   const selectedCity = hotelsData.cities.find(function (city) {
@@ -27,7 +31,9 @@ function HomePage() {
 
   return (
     <div style={pageStyle}>
-      <h1 className="text-center mb-5">Hotel Listing</h1>
+      <h1 className="text-center mb-5" style={h1Style}>
+        Brightson Hotel Listing
+      </h1>
       <CityTabs
         cities={hotelsData.cities.map(function (city) {
           return city.name;

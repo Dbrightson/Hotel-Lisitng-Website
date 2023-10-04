@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '@mui/material/Button';
 
 function CityTabs({ cities, activeCity, onCityClick }) {
   const handleClick = function (city) {
@@ -10,12 +11,24 @@ function CityTabs({ cities, activeCity, onCityClick }) {
     <div className="text-center mb-4">
       {cities.map(function (city) {
         const isActive = city === activeCity;
-        const classes = `btn btn-outline-primary ${isActive ? 'active' : ''} mx-2`;
+        const buttonStyle = {
+          textTransform: 'none', // Prevent uppercase text
+          backgroundColor: isActive ? '#0026FF' : '#ECECFF',
+          color: isActive ? 'white' : 'black',
+          borderRadius: '25px', // Add curved border
+          marginBottom:'25px',
+          marginRight: '8px', // Add margin for spacing
+        };
 
         return (
-          <button key={city} className={classes} onClick={() => handleClick(city)}>
+          <Button
+            key={city}
+            variant="contained"
+            style={buttonStyle}
+            onClick={() => handleClick(city)}
+          >
             {city}
-          </button>
+          </Button>
         );
       })}
     </div>

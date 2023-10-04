@@ -35,6 +35,39 @@
           "sqft": 2500,
           "price": 1000,
           "imageUrl": "https://media.radissonhotels.net/image/radisson-blu-hotel-dubai-waterfront/guestroom/16256-116474-f63809820_3xl.jpg?impolicy=Card"
+        },
+        {
+          "id": 4,
+          "name": "Cozy Inn",
+          "address": "456 Elm St, New York, NY",
+          "rooms": 5,
+          "bathrooms": 5,
+          "beds": 10,
+          "sqft": 2500,
+          "price": 1000,
+          "imageUrl": "https://media.radissonhotels.net/image/radisson-blu-hotel-dubai-waterfront/guestroom/16256-116474-f63809820_3xl.jpg?impolicy=Card"
+        },
+        {
+          "id": 5,
+          "name": "Cozy Inn",
+          "address": "456 Elm St, New York, NY",
+          "rooms": 5,
+          "bathrooms": 5,
+          "beds": 10,
+          "sqft": 2500,
+          "price": 1000,
+          "imageUrl": "https://media.radissonhotels.net/image/radisson-blu-hotel-dubai-waterfront/guestroom/16256-116474-f63809820_3xl.jpg?impolicy=Card"
+        },
+        {
+          "id": 6,
+          "name": "Cozy Inn",
+          "address": "456 Elm St, New York, NY",
+          "rooms": 5,
+          "bathrooms": 5,
+          "beds": 10,
+          "sqft": 2500,
+          "price": 1000,
+          "imageUrl": "https://media.radissonhotels.net/image/radisson-blu-hotel-dubai-waterfront/guestroom/16256-116474-f63809820_3xl.jpg?impolicy=Card"
         }
       ]
     },
@@ -42,26 +75,212 @@
       "name": "Los Angeles",
       "properties": [
         {
-          "id": 4,
-          "name": "Beachside Resort",
-          "address": "789 Ocean Blvd, Los Angeles, CA",
+          "id": 7,
+          "name": "Freehand Los Angeles",
+          "address": "416 West 8th Street, Downtown LA",
           "rooms": 15,
           "bathrooms": 15,
           "beds": 30,
           "sqft": 7500,
           "price": 1000,
-          "imageUrl": "https://example.com/hotel3.jpg"
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/112819619.jpg?k=3cc40af97fd161f9cb6c1cb6eceb51a082ad21ee97fd7c1d070c77cc3dcaa0ac&o=&hp=1"
         },
         {
-          "id": 5,
-          "name": "Downtown Loft",
-          "address": "101 Pine St, Los Angeles, CA",
+          "id": 8,
+          "name": "Level Los Angeles",
+          "address": "888 South Olive Street, Downtown LA, CA",
           "rooms": 8,
           "bathrooms": 8,
           "beds": 16,
           "price": 1000,
           "sqft": 4000,
-          "imageUrl": "https://example.com/hotel4.jpg"
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/71477459.jpg?k=7f6a66ba299e175b86d91008691a8019fa50b57b4bd3729777b7f13f5cd51ccf&o=&hp=1"
+        },
+        {
+          "id": 9,
+          "name": "Freehand Los Angeles",
+          "address": "416 West 8th Street, Downtown LA",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "sqft": 7500,
+          "price": 1000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/112819619.jpg?k=3cc40af97fd161f9cb6c1cb6eceb51a082ad21ee97fd7c1d070c77cc3dcaa0ac&o=&hp=1"
+        },
+        {
+          "id": 10,
+          "name": "Level Los Angeles",
+          "address": "888 South Olive Street, Downtown LA, CA",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/71477459.jpg?k=7f6a66ba299e175b86d91008691a8019fa50b57b4bd3729777b7f13f5cd51ccf&o=&hp=1"
+        },
+        {
+          "id": 11,
+          "name": "Freehand Los Angeles",
+          "address": "416 West 8th Street, Downtown LA",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "sqft": 7500,
+          "price": 1000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/112819619.jpg?k=3cc40af97fd161f9cb6c1cb6eceb51a082ad21ee97fd7c1d070c77cc3dcaa0ac&o=&hp=1"
+        },
+        {
+          "id": 12,
+          "name": "Level Los Angeles",
+          "address": "888 South Olive Street, Downtown LA, CA",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/71477459.jpg?k=7f6a66ba299e175b86d91008691a8019fa50b57b4bd3729777b7f13f5cd51ccf&o=&hp=1"
+        }
+      ]
+    },
+    {
+      "name": "Mumbai",
+      "properties": [
+        {
+          "id": 13,
+          "name": "Freehand Los Angeles",
+          "address": "416 West 8th Street, Downtown LA",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "sqft": 7500,
+          "price": 1000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/112819619.jpg?k=3cc40af97fd161f9cb6c1cb6eceb51a082ad21ee97fd7c1d070c77cc3dcaa0ac&o=&hp=1"
+        },
+        {
+          "id": 14,
+          "name": "Level Los Angeles",
+          "address": "888 South Olive Street, Downtown LA, CA",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/71477459.jpg?k=7f6a66ba299e175b86d91008691a8019fa50b57b4bd3729777b7f13f5cd51ccf&o=&hp=1"
+        },
+        {
+          "id": 15,
+          "name": "Freehand Los Angeles",
+          "address": "416 West 8th Street, Downtown LA",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "sqft": 7500,
+          "price": 1000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/112819619.jpg?k=3cc40af97fd161f9cb6c1cb6eceb51a082ad21ee97fd7c1d070c77cc3dcaa0ac&o=&hp=1"
+        },
+        {
+          "id": 16,
+          "name": "Level Los Angeles",
+          "address": "888 South Olive Street, Downtown LA, CA",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/71477459.jpg?k=7f6a66ba299e175b86d91008691a8019fa50b57b4bd3729777b7f13f5cd51ccf&o=&hp=1"
+        },
+        {
+          "id": 17,
+          "name": "Freehand Los Angeles",
+          "address": "416 West 8th Street, Downtown LA",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "sqft": 7500,
+          "price": 1000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/112819619.jpg?k=3cc40af97fd161f9cb6c1cb6eceb51a082ad21ee97fd7c1d070c77cc3dcaa0ac&o=&hp=1"
+        },
+        {
+          "id": 18,
+          "name": "Level Los Angeles",
+          "address": "888 South Olive Street, Downtown LA, CA",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/71477459.jpg?k=7f6a66ba299e175b86d91008691a8019fa50b57b4bd3729777b7f13f5cd51ccf&o=&hp=1"
+        }
+      ]
+    },
+    {
+      "name": "Delhi",
+      "properties": [
+        {
+          "id": 19,
+          "name": "Freehand Los Angeles",
+          "address": "416 West 8th Street, Downtown LA",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "sqft": 7500,
+          "price": 1000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/112819619.jpg?k=3cc40af97fd161f9cb6c1cb6eceb51a082ad21ee97fd7c1d070c77cc3dcaa0ac&o=&hp=1"
+        },
+        {
+          "id": 20,
+          "name": "Level Los Angeles",
+          "address": "888 South Olive Street, Downtown LA, CA",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/71477459.jpg?k=7f6a66ba299e175b86d91008691a8019fa50b57b4bd3729777b7f13f5cd51ccf&o=&hp=1"
+        },
+        {
+          "id": 21,
+          "name": "Freehand Los Angeles",
+          "address": "416 West 8th Street, Downtown LA",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "sqft": 7500,
+          "price": 1000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/112819619.jpg?k=3cc40af97fd161f9cb6c1cb6eceb51a082ad21ee97fd7c1d070c77cc3dcaa0ac&o=&hp=1"
+        },
+        {
+          "id":22,
+          "name": "Level Los Angeles",
+          "address": "888 South Olive Street, Downtown LA, CA",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/71477459.jpg?k=7f6a66ba299e175b86d91008691a8019fa50b57b4bd3729777b7f13f5cd51ccf&o=&hp=1"
+        },
+        {
+          "id": 23,
+          "name": "Freehand Los Angeles",
+          "address": "416 West 8th Street, Downtown LA",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "sqft": 7500,
+          "price": 1000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/112819619.jpg?k=3cc40af97fd161f9cb6c1cb6eceb51a082ad21ee97fd7c1d070c77cc3dcaa0ac&o=&hp=1"
+        },
+        {
+          "id": 24,
+          "name": "Level Los Angeles",
+          "address": "888 South Olive Street, Downtown LA, CA",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/71477459.jpg?k=7f6a66ba299e175b86d91008691a8019fa50b57b4bd3729777b7f13f5cd51ccf&o=&hp=1"
         }
       ]
     }
