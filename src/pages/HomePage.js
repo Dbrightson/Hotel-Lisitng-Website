@@ -39,7 +39,7 @@ function HomePage() {
   return (
     <div style={pageStyle}>
       <h1 className="text-center mb-5" style={{ fontFamily: 'Oswald' }}>
-        Hotel Listing
+        Brightson Hotels International
       </h1>
       <CityTabs
         cities={hotelsData.cities.map(function (city) {
