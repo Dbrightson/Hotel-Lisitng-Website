@@ -1,24 +1,23 @@
 import React from 'react';
 
 function CityTabs({ cities, activeCity, onCityClick }) {
-  const handleButtonClick = (city) => {
-    console.log('Button clicked for city:', city); // Add this line
+  const handleClick = function (city) {
+    console.log('Button clicked for city:', city);
     onCityClick(city);
   };
 
   return (
     <div className="text-center mb-4">
-      {cities.map((city) => (
-        <button
-          key={city}
-          className={`btn btn-outline-primary ${
-            city === activeCity ? 'active' : ''
-          } mx-2`}
-          onClick={() => handleButtonClick(city)} // Update to use handleButtonClick
-        >
-          {city}
-        </button>
-      ))}
+      {cities.map(function (city) {
+        const isActive = city === activeCity;
+        const classes = `btn btn-outline-primary ${isActive ? 'active' : ''} mx-2`;
+
+        return (
+          <button key={city} className={classes} onClick={() => handleClick(city)}>
+            {city}
+          </button>
+        );
+      })}
     </div>
   );
 }
