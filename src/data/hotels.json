@@ -1,0 +1,349 @@
+{
+  "cities": [
+    {
+      "name": "New York",
+      "properties": [
+        {
+          "id": 1,
+          "name": "Artezen Hotel",
+          "address": "Wall Street - Financial District, New York",
+          "rooms": 11,
+          "bathrooms": 10,
+          "beds": 20,
+          "sqft": 5000,
+          "Popular": "Yes",
+          "price": 9900,
+          "imageUrl": "https://www.bing.com/th?id=OADD2.8108955399575_1DTKGNLK40MSXQB9FE&pid=21.2&c=16&roil=0.1489&roit=0.2005&roir=1&roib=1&w=472&h=247&rs=2"
+        },
+        {
+          "id": 2,
+          "name": "LUMA Hotel - Times Square",
+          "address": "Manhattan, New York",
+          "rooms": 10,
+          "bathrooms": 10, 
+          "beds": 20,
+          "sqft": 5000,
+          "price": 1000,
+          "Popular": "Yes",
+          "imageUrl": "https://www.lumahotels.com/sites/default/files/styles/large/public/2023-08/LUMA-Hotel-New-York-City-Times-Square-small_Exterior-5.jpg?itok=Ply5bCkA"
+        },
+        {
+          "id": 3,
+          "name": "Pendry Manhattan West",
+          "address": "Hudson Yards, New York",
+          "rooms": 5,
+          "bathrooms": 5,
+          "beds": 10,
+          "sqft": 2500,
+          "price": 1000,
+          "Popular": "No",
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/331711537.jpg?k=5da22088f230ed99e6ab583be3b95500f847ef62b8ec592e0ab0c30211d5d023&o=&hp=1"
+        },
+        {
+          "id": 4,
+          "name": "The Wallace Hotel",
+          "address": "Upper West Side, New York",
+          "rooms": 5,
+          "bathrooms": 5,
+          "beds": 10,
+          "sqft": 2500,
+          "price": 1000,
+          "Popular": "No",
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/311477990.jpg?k=8372a50aade5f5834c9f98e2b3cb71930ffcfd0dc90519ddc1bf4c7eac988826&o=&hp=1"
+        },
+        {
+          "id": 5,
+          "name": "Casa Cipriani New York",
+          "address": "Wall Street - Financial District, New York",
+          "rooms": 5,
+          "bathrooms": 5,
+          "beds": 10,
+          "sqft": 2500,
+          "Popular": "No",
+          "price": 1000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/331746873.jpg?k=f2885d7e98a70584f22f6f6d6e96e7c85e3f7b76a9b05033a4b7b7884cd5e34f&o=&hp=1"
+        },
+        {
+          "id": 6,
+          "name": "The Ritz-Carlton New York",
+          "address": "NoMad, New York, NY",
+          "rooms": 5,
+          "bathrooms": 5,
+          "Popular": "Yes",
+          "beds": 10,
+          "sqft": 2500,
+          "price": 1000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/473026271.jpg?k=717ae5b915326a63176fa743135fa0124ebf7927671064dc6152c2a6bb14b042&o=&hp=1"
+        },
+        {
+          "id": 7,
+          "name": "New York Marriott Marquis",
+          "address": "1535 Broadway, New York City, NY",
+          "rooms": 5,
+          "bathrooms": 5,
+          "Popular": "No",
+          "beds": 10,
+          "sqft": 2500,
+          "price": 1000,
+          "imageUrl": "https://media.radissonhotels.net/image/radisson-blu-hotel-dubai-waterfront/guestroom/16256-116474-f63809820_3xl.jpg?impolicy=Card"
+        }
+      ]
+    },
+    {
+      "name": "Los Angeles",
+      "properties": [
+        {
+          "id": 8,
+          "name": "Freehand Los Angeles",
+          "address": "416 West 8th Street, Downtown LA",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "sqft": 7500,
+          "price": 1000,
+          "Popular" :"Yes",
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/112819619.jpg?k=3cc40af97fd161f9cb6c1cb6eceb51a082ad21ee97fd7c1d070c77cc3dcaa0ac&o=&hp=1"
+        },
+        {
+          "id": 9,
+          "name": "Level Los Angeles",
+          "address": "888 South Olive Street, Downtown LA, CA",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "Popular" :"Yes",
+          "sqft": 4000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/71477459.jpg?k=7f6a66ba299e175b86d91008691a8019fa50b57b4bd3729777b7f13f5cd51ccf&o=&hp=1"
+        },
+        {
+          "id": 10,
+          "name": "Level Downtown LA South Olive",
+          "address": "Downtown LA",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "sqft": 7500,
+          "price": 1000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/443371957.jpg?k=f6ca475ad39148572a546abba97594cda08e3ac314733992a12fc89456c16c50&o=&hp=1"
+        },
+        {
+          "id": 11,
+          "name": "Hotel Indigo - IHG Hotel",
+          "address": "Downtown LA, CA",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/233952165.jpg?k=9a41a94b2edea17394498dc7e4d352ecdbf46d274e6d37347a9b42c63faf6aa6&o=&hp=1"
+        },
+        {
+          "id": 12,
+          "name": "Sheraton Grand Los Angeles",
+          "address": "Downtown LA, USA",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "Popular":"Yes",
+          "sqft": 7500,
+          "price": 1000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/446993079.jpg?k=0cc71a58bf5eb12e59f312672ccfca46a19cccd589661762659bfb2350008a35&o=&hp=1"
+        },
+        {
+          "id": 13,
+          "name": "InterContinental - IHG Hotel",
+          "address": "Downtown LA, CA",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/377053508.jpg?k=e87d778c6311551e722c43d1a52876216885b46f57dbc9ce666eb1a096577069&o=&hp=1"
+        }
+      ]
+    },
+    {
+      "name": "Mumbai",
+      "properties": [
+        {
+          "id": 14,
+          "name": "ITC Grand Central",
+          "address": "Dr Babasaheb Ambedkar Road, Mumbai",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "Popular":"Yes",
+          "sqft": 7500,
+          "price": 1000,
+          "imageUrl": "https://pix10.agoda.net/hotelImages/7457802/0/7765c41dc2905940d1417fd8ed5504a7.jpg?s=1024x768"
+        },
+        {
+          "id": 15,
+          "name": "Radisson Mumbai Goregaon",
+          "address": "S.V. Road, Goregaon West",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://th.bing.com/th/id/OIP.CbJxy-EBqs_kTjYZ3pdPzAHaE8?pid=ImgDet&rs=1"
+        },
+        {
+          "id": 16,
+          "name": "Taj Santacruz",
+          "address": "Chhatrapati Shivaji International Airport",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "sqft": 7500,
+          "price": 1000,
+          "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/37/4a/dc/outdoor-swimming-pool.jpg?w=1200&h=-1&s=1"
+        },
+        {
+          "id": 17,
+          "name": "TRIDENT, BANDRA KURLA",
+          "address": "C - 56 G Block Rd Bandra Kurla Complex",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "Popular":"Yes",
+          "sqft": 4000,
+          "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-s/01/57/90/a3/maya.jpg?w=600&h=-1&s=1"
+        },
+        {
+          "id": 18,
+          "name": "Four Seasons Hotel ",
+          "address": "1/136 Four Seasons Hotel Dr. E. Moses Road",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "sqft": 7500,
+          "price": 1000,
+          "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/07/d3/1b/mum-exterior.jpg?w=1100&h=-1&s=1"
+        },
+        {
+          "id": 19,
+          "name": "Sofitel Mumbai BKC",
+          "address": "C 57 Bandra Kurla Complex Bandra East",
+          "rooms": 8,
+          "bathrooms": 8,
+          "Popular":"Yes",
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/7e/60/95/exterior.jpg?w=1100&h=-1&s=1"
+        }
+      ]
+    },
+    {
+      "name": "Delhi",
+      "properties": [
+        {
+          "id": 20,
+          "name": "ITC Maurya",
+          "address": "New Delhi",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "sqft": 7500,
+          "Popular":"Yes",
+          "price": 1000,
+          "imageUrl": "https://www.thehotelguru.com/_images/c8/17/c817799b8ae30d85d12f29b638b0a191/itc-maurya-1180x560.jpg"
+        },
+        {
+          "id": 21,
+          "name": "Taj Palace",
+          "address": "New Delhi",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "Popular":"Yes",
+          "imageUrl": "https://th.bing.com/th/id/R.c0c9ee3a07f4c97cc39bfe37d239639a?rik=TskiA77Gl7jSKw&riu=http%3a%2f%2fwww.cfmedia.vfmleonardo.com%2fimageRepo%2f1%2f0%2f27%2f641%2f10%2f001_Exterior-_S.jpg&ehk=EiVjZ7%2f4wI0krvPeHgrimDVYKkyD3n5FcCV7zTEjGlY%3d&risl=&pid=ImgRaw&r=0"
+        },
+        {
+          "id": 22,
+          "name": "Radisson Blu Plaza",
+          "address": " Opp to Delhi International Airport",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "sqft": 7500,
+          "price": 1000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/328920641.jpg?k=f5ac737d457669aa6a3d21fb551de8ceeb1b929aca8ea51daef053df8b640be8&o=&hp=1"
+        },
+        {
+          "id":23,
+          "name": "Novotel New Delhi Aerocity",
+          "address": "IGI Airport New Delhi",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "Popular":"Yes",
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/252166334.jpg?k=3afa35f65d5ce907aa6545c6075879cd918d5c28d00626761ad453be453f01b7&o=&hp=1"
+        },
+        {
+          "id": 24,
+          "name": "Aloft New Delhi Aerocity",
+          "address": "South West, New Delhi",
+          "rooms": 15,
+          "bathrooms": 15,
+          "beds": 30,
+          "sqft": 7500,
+          "price": 1000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/square600/467531007.webp?k=c2f36456d250b5fd68c86375c5861114afe751f98c81e3ebece9ae70c3d456e3&o="
+        },
+        {
+          "id": 25,
+          "name": "The Claridges",
+          "address": "Central Delhi, New Delhi",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "Popular": "Yes",
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/square600/73155369.webp?k=6e639b4e9e99a147d4af4cdd5fdaa6d20d0993229b3dc204ad46f7aa4c8a86ea&o="
+        },
+        {
+          "id": 26,
+          "name": "Roseate House ",
+          "address": "South West, New Delhi",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/square600/106566927.webp?k=78d12cd35eb482825b965da83fd0554af194fc61ad0c8fc0d88007b1f837671a&o="
+        },
+        {
+          "id": 27,
+          "name": "The LaLiT",
+          "address": "Central Delhi, New Delhi",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/square600/154232887.webp?k=3b2082442297d391915c5d9008adc0a0154d181977d3566302ab89abbce2f058&o="
+        },
+        {
+          "id": 28,
+          "name": "Crowne Plaza",
+          "address": "South Delhi, New Delhi",
+          "rooms": 8,
+          "bathrooms": 8,
+          "beds": 16,
+          "price": 1000,
+          "sqft": 4000,
+          "imageUrl": "https://cf.bstatic.com/xdata/images/hotel/square600/234777892.webp?k=c09b574bf9b82a4270b46cc1205645fa8669b54d94e5b9e4fce57febc215a8ac&o="
+        }
+      ]
+    }
+  ]
+}

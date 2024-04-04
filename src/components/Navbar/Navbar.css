@@ -1,0 +1,88 @@
+.navbar-container {
+    background: rgba(255, 255, 255, 0.05); /* Light background with glassmorphism effect */
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  }
+  
+  .logo {
+    color: #0026FF; /* Blue text color */
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif; /* Oswald font */
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .nav-link {
+    color: #0026FF; /* Blue text color */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-family: 'Oswald', sans-serif; /* Oswald font */
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light background color on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #0026FF; /* Blue border */
+    border-radius: 20px;
+    padding: 5px;
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    background: none;
+    color: #0026FF; /* Blue text color */
+    font-family: 'Oswald', sans-serif; /* Oswald font */
+    width: 200px;
+    padding: 5px;
+  }
+  
+  .search-icon {
+    color: #0026FF; /* Blue search icon color */
+    cursor: pointer;
+  }
+
+  
+  .options-menu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    padding: 5px 0;
+  }
+  
+  .options-link {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .options-link:hover {
+    background-color: #f4f4f4;
+  }
+  
