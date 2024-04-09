@@ -67,10 +67,10 @@ function Navbar({ handleSearch, user }) {
         <Link to="/" className="nav-link">
           Welcome
         </Link>
-        <Link to="/about" className="nav-link">
+        <Link to="/aboutus" className="nav-link">
           About Us
         </Link>
-        <Link to="/contact" className="nav-link">
+        <Link to="/contactus" className="nav-link">
           Contact Us
         </Link>
       </div>
