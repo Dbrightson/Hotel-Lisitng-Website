@@ -1,0 +1,108 @@
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4fd;
+  }
+  
+  .glassmorphic-container {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5), -20px -20px 50px rgba(255, 255, 255, 0.15);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-title {
+    font-family: 'Oswald', sans-serif;
+    color: #0026ff;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  
+  .input-field {
+    width: 300px;
+  }
+  
+  .login-button {
+    margin-top: 20px;
+    background-color: #0026ff;
+    color: white;
+    width: 200px; /* Set the width of the button */
+  }
+  
+  .signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #0026ff;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #0026ff;
+  }
+  
+/* Login.css */
+.message-container {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.message {
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  animation: fadeInOut 5s ease forwards;
+}
+
+.error {
+  background-color: #ffcccc;
+  color: red;
+}
+
+.success {
+  background-color: #ccffcc;
+  color: green;
+}
+
+.info {
+  background-color: #ccccff;
+  color: blue;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
