@@ -6,13 +6,12 @@ import LoginPage from './pages/Login/Login';
 import SignupPage from './pages/Signup/Signup';
 import AboutUsPage from './pages/AboutUsPage/AboutUs';
 import ContactUsPage from './pages/ContactUsPage/ContactUs';
-import { Login } from '@mui/icons-material';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Login/>} />
+        <Route path="/" element={<LoginPage/>} />
         <Route path="/home" element={<HomePage />} /> {/* Use the same component for both '/' and '/home' */}
         <Route path="/property/:id" element={<PropertyPage />} />
         <Route path="/login" element={<LoginPage />} />
