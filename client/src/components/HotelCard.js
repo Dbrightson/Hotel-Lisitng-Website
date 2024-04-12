@@ -11,6 +11,8 @@ import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
+import { IconButton } from '@mui/material';
+import DescriptionIcon from '@mui/icons-material/Description';
 
 const HotelCard = ({ hotel }) => {
   const {
@@ -177,7 +179,7 @@ const HotelCard = ({ hotel }) => {
               </Typography>
             </div>
           </div>
-          <div className="mt-3" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <div className="mt-3" style={{ display: 'flex', marginTop:'20px',justifyContent: 'space-between', alignItems: 'center' }}>
             <div>
               <div style={priceContainerStyle}>
                 <Typography variant="h6" style={priceStyle}>
@@ -188,9 +190,11 @@ const HotelCard = ({ hotel }) => {
                 </Typography>
               </div>
             </div>
-            <Button variant="outlined" color="primary" style={readMoreButtonStyle}>
-              Read More
-            </Button>
+            <Link to={`/property/${id}`} className="property-link"> {/* Fixed Link */}
+              <Button variant="outlined" color="primary" style={readMoreButtonStyle}>
+                View Details
+              </Button>
+            </Link>
           </div>
         </CardContent>
       </Card>

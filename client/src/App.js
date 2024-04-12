@@ -6,6 +6,7 @@ import LoginPage from './pages/Login/Login';
 import SignupPage from './pages/Signup/Signup';
 import AboutUsPage from './pages/AboutUsPage/AboutUs';
 import ContactUsPage from './pages/ContactUsPage/ContactUs';
+import TermsAndConditionsPage from './pages/TermsAndConditions/TermsandConditions';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/signup" element={<SignupPage />} />
         <Route path="/aboutus" element={<AboutUsPage />} />
         <Route path="/contactus" element={<ContactUsPage />} />
+        <Route path="/termsandconditions" element={<TermsAndConditionsPage />} />
       </Routes>
     </Router>
   );
