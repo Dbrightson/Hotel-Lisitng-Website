@@ -60,17 +60,17 @@ function Navbar({ handleSearch, user }) {
 
   return (
     <div className="navbar-container">
-      <Link to="/" className="logo">
+      <Link to="/home" className="logo">
         Logo
       </Link>
       <div className="nav-links">
-        <Link to="/" className="nav-link">
+        <Link to="/home" className="nav-link">
           Welcome
         </Link>
-        <Link to="/about" className="nav-link">
+        <Link to="/aboutus" className="nav-link">
           About Us
         </Link>
-        <Link to="/contact" className="nav-link">
+        <Link to="/contactus" className="nav-link">
           Contact Us
         </Link>
       </div>

@@ -72,7 +72,7 @@
 }
 
 .error {
-  background-color: #ffcccc;
+  background-color: #ff0000;
   color: red;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .info {
-  background-color: #ccccff;
+  background-color: #ff0000;
   color: blue;
 }
 

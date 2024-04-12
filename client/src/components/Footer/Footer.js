@@ -19,11 +19,19 @@ function Footer() {
         <div className="footer-column">
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="/about">About Us</a></li>
-            <li><a href="/services">Our Services</a></li>
-            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/aboutus">About Us</a></li>
+            <li><a href="/contactus">Contact Us</a></li>
           </ul>
         </div>
+
+        <div className="footer-column">
+          <h3>Our Company</h3>
+          <ul>
+            <li><a href="/termsandconditions">Terms and Conditions </a></li>
+          </ul>
+        </div>
+
         <div className="footer-column">
           <h3>Contact Info</h3>
           <p>Email: info@example.com</p>
