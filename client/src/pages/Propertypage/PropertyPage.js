@@ -98,12 +98,10 @@ function PropertyPage() {
       return;
     }
 
-    const amountToPay = property.price * numberOfDays* 100 ;
+    const amountToPay = property.price * numberOfDays * 100;
 
     const options = {
-      key:process.env.REACT_APP_RAZORPAY_KEY_ID,
       amount: amountToPay,
-      name: "Brightson Hotels International",
       currency: "INR",
       receipt: "order_receipt_" + new Date().getTime(),
       payment_capture: 1,
@@ -120,7 +118,6 @@ function PropertyPage() {
     };
 
     razorpay?.open(options);
-    console.log(amountToPay)
   };
 
   const handleInputChange = (event) => {
