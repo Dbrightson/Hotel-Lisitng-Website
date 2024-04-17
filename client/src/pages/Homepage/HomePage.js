@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Navigate } from 'react-router-dom'; // Import Navigate component
-import hotelsData from '../data/hotels.json';
-import CityTabs from '../components/CityTabs';
-import HotelCard from '../components/HotelCard';
+import hotelsData from '../../data/hotels.json';
+import CityTabs from '../../components/CityTabs';
+import HotelCard from '../../components/HotelCard';
 import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
-import Navbar from '../components/Navbar/Navbar';
-import Footer from '../components/Footer/Footer'; // Import Footer component
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer'; // Import Footer component
 
 function HomePage() {
   const [activeCity, setActiveCity] = useState('New York');
