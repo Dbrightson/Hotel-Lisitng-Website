@@ -1,0 +1,43 @@
+.booking-status {
+    position: relative;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .booking-status.success {
+    background-color: #4caf50; /* Green */
+  }
+  
+  .booking-status.failure {
+    background-color: #f44336; /* Red */
+  }
+  
+  .booking-status h1 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .booking-status p {
+    font-size: 18px;
+    color: white;
+    margin: 0;
+  }
+  
+  .booking-status.success,
+  .booking-status.failure {
+    animation: fadeOut 10s forwards;
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
