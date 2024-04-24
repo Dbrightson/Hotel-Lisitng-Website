@@ -14,29 +14,32 @@
   .logo img {
     height: 75px;
     width: 75px;
-    transition: text-shadow 0.3s ease; /* Transition effect for neon glow */
     border-radius: 50%;
+    transition: box-shadow 0.3s ease; /* Add transition for the glow effect */
   }
   
   .logo:hover img {
     box-shadow: 0 0 2px #00BFFF, 0 0 4px #00BFFF, 0 0 6px #00BFFF; /* Larger Neon glow effect */
-  }
+  }  
   
   
   .nav-link {
+    display: inline-block; /* Add this line */
     color: #0026FF; /* Blue text color */
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 15px;
     font-family: 'Oswald', sans-serif; /* Oswald font */
     background-color: rgba(255, 255, 255, 0.1); /* Transparent background */
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.15s ease-in-out, transform 0.15s ease-in-out; /* Add transform to the transition */
   }
   
   .nav-link:hover {
     background-color: rgba(255, 255, 255, 0.2); /* Light background color on hover */
     transform: scale(1.10); /* Scale effect on hover */
+    color: rgb(0, 153, 255);
   }
+  
 
   .profile-icon:hover{  
     transform: scale(1.25);

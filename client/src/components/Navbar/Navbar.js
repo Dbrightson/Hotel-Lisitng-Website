@@ -4,7 +4,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import SearchIcon from '@mui/icons-material/Search';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import Logo from '../../logo.png';
+import Logo from '../../Assets/logo.png'
 import './Navbar.css'; // Import CSS file for additional styling
 
 function Navbar({ handleSearch, user }) {
