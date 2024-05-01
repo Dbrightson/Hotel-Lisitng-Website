@@ -20,7 +20,7 @@ function LoginPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = 'http://localhost:8080/api/auth';
+      const url = 'https://hotel-lisitng-website.onrender.com/api/auth';
       const response = await axios.post(url, data);
       localStorage.setItem('token', response.data.data);
       sessionStorage.setItem('isLoggedIn', 'true'); // Set isLoggedIn to true
