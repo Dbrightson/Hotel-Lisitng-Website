@@ -25,7 +25,7 @@ function SignupPage() {
     e.preventDefault();
 
     try {
-      const url = 'http://localhost:8080/api/users';
+      const url = 'https://hotel-lisitng-website.onrender.com/api/users';
       const data = { firstName, lastName, email, password };
       const response = await axios.post(url, data);
       Navigate('/login');
